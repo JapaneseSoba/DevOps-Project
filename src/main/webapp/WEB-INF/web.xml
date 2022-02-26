@@ -5,9 +5,9 @@
 	version="3.1">
 	<display-name>DevOps Project</display-name>
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>UserManagement.jsp</welcome-file>
+		<welcome-file>register.jsp</welcome-file>
+		<welcome-file>userEdit.jsp</welcome-file>
 		<welcome-file>default.html</welcome-file>
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file> 
@@ -33,6 +33,7 @@
 
 	<servlet-mapping>
 		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/</url-pattern>
 		<url-pattern>/UserServlet/dashboard</url-pattern>
 		<url-pattern>/UserServlet/edit</url-pattern>
 		<url-pattern>/UserServlet/update</url-pattern>
