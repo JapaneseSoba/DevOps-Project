@@ -1,4 +1,3 @@
-
 //Import these libraries from java.io and java.sql
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -17,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/RegisterServlet")
 public class RegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+        
     /**
      * @see HttpServlet#HttpServlet()
      */
