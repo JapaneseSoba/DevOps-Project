@@ -101,7 +101,7 @@ public class NewTest {
 	  Assert.assertTrue(webDriver1.getTitle().contains("User Management"));
 	  System.out.println("new title: "+webDriver1.getTitle());
 	   
-  }
+  } 
 	  @Test
 	  public void Edit() {
 		  webDriver1.navigate().to("http://localhost:8090/DevOpsProject/UserServlet/dashboard");
