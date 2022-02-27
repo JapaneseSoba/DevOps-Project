@@ -69,7 +69,7 @@ public class NewTest {
 	  WebElement name =  webDriver1.findElement(By.xpath("/html/body/form/input[1]"));
 	  
 	  // Input
-	  
+	   
 	  name.sendKeys("Moho");
 	  
 	// Go to the 2nd input
